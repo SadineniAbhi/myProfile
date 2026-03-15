@@ -50,7 +50,8 @@ locals {
 
 resource "google_cloudbuild_trigger" "deploy" {
   name     = "${var.app_name}-deploy"
-  service_account = google_service_account.cloudbuild_service_account.id
+  service_account ="projects/${var.project_id}/serviceAccounts/355277184582-compute@developer.gserviceaccount.com"
+
   location = var.region
 
   github {
