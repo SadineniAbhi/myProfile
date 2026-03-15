@@ -26,7 +26,7 @@ steps:
       - "--port=80"
       - "--allow-unauthenticated"
       - "--cpu=1"
-      - "--memory=256Mi"
+      - "--memory=512Mi"
       - "--min-instances=0"
       - "--max-instances=3"
 
@@ -38,6 +38,6 @@ options:
   logging: CLOUD_LOGGING_ONLY
 
 substitutions:
-  _REGION: asia-south1
+  _REGION: us-central1
   _APP_NAME: myprofile
   _IMAGE_URL: asia-south1-docker.pkg.dev/PROJECT_ID/myprofile/myprofile
