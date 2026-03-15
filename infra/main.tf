@@ -136,6 +136,19 @@ resource "google_project_iam_member" "cloudbuild_sa_user" {
   member  = "serviceAccount:${data.google_project.current.number}@cloudbuild.gserviceaccount.com"
 }
 
+resource "google_cloud_run_domain_mapping" "mapping" {
+  location = var.region
+  name     = "sadineni.in"
+
+  metadata {
+    namespace = var.project_id
+  }
+
+  spec {
+    route_name = "myprofile"
+  }
+}
+
 # ── Outputs ───────────────────────────────────────────────────────────
 
 output "service_url" {
