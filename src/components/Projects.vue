@@ -2,7 +2,7 @@
 <section class="section" id="projects">
   <div class="wrap">
     <p class="s-label reveal">Work</p>
-    <h2 class="s-title reveal">Side <em>Projects</em></h2>
+    <h2 class="s-title reveal">Projects</h2>
     <div class="proj-card reveal">
       <div class="proj-num">01</div>
       <div class="proj-title">Smart Board</div>
@@ -65,5 +65,15 @@
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 100px;
   color: rgba(255,255,255,0.3);
+}
+
+@media (max-width: 768px) {
+  .section { padding: 60px 0; }
+  .wrap { padding: 0 20px; }
+  .s-title { margin-bottom: 32px; }
+  .proj-card { padding: 24px; }
+  .proj-num { font-size: 48px; top: 18px; right: 20px; }
+  .proj-title { font-size: 18px; }
+  .proj-desc { font-size: 12px; }
 }
 </style>

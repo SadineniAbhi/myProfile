@@ -1,6 +1,6 @@
 <template>
 <div class="contact-block reveal">
-  <h2>Let's Build<br><em>Something</em> Together.</h2>
+  <h2>Let's Build<br>Something Together.</h2>
   <p>Open to AI engineering and backend internships, full-time roles, and collaborations.</p>
   <div class="contact-btns">
     <a href="mailto:sadineniabhi@gmail.com" class="c-link">✉ sadineniabhi@gmail.com</a>
@@ -34,4 +34,12 @@
   transition: all 0.25s; backdrop-filter: blur(8px);
 }
 .c-link:hover { border-color: rgba(200,220,192,0.35); color: #c8dcc0; transform: translateY(-2px); }
+
+@media (max-width: 768px) {
+  .contact-block { padding: 60px 20px; }
+  .contact-block h2 { letter-spacing: -1px; }
+  .contact-block p { font-size: 13px; margin-bottom: 28px; }
+  .contact-btns { flex-direction: column; align-items: center; gap: 8px; }
+  .c-link { width: 100%; max-width: 320px; justify-content: center; padding: 14px 20px; font-size: 12px; }
+}
 </style>

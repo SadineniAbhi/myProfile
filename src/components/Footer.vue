@@ -13,4 +13,12 @@ footer {
   font-size: 11px; color: rgba(255,255,255,0.18);
   flex-wrap: wrap; gap: 10px;
 }
+
+@media (max-width: 768px) {
+  footer {
+    padding: 20px 20px;
+    flex-direction: column; align-items: center;
+    text-align: center; gap: 6px;
+  }
+}
 </style>

@@ -2,15 +2,17 @@
 <section class="section" id="skills">
   <div class="wrap">
     <p class="s-label reveal">Capabilities</p>
-    <h2 class="s-title reveal">Technical <em>Stack</em></h2>
+    <h2 class="s-title reveal">Tech Stack</h2>
     <div class="sk-grid">
       <div class="sk-cell reveal">
         <div class="sk-cell-label">Languages</div>
         <div class="sk-pills">
           <span class="sk-pill">Python</span>
+          <span class="sk-pill">JavaScript</span>
           <span class="sk-pill">TypeScript</span>
           <span class="sk-pill">SQL</span>
           <span class="sk-pill">Java</span>
+          <span class="sk-pill">Go</span>
         </div>
       </div>
       <div class="sk-cell reveal">
@@ -35,17 +37,22 @@
           <span class="sk-pill">REST</span>
           <span class="sk-pill">JWT</span>
           <span class="sk-pill">Postman</span>
+          <span class="sk-pill">Gin Web Framework</span>
+          <span class="sk-pill">Vue.js</span>
         </div>
       </div>
       <div class="sk-cell reveal">
         <div class="sk-cell-label">DevOps &amp; Cloud</div>
         <div class="sk-pills">
-          <span class="sk-pill">Kubernetes</span>
+          <span class="sk-pill">GKE</span>
+          <span class="sk-pill">Cloud Run</span>
           <span class="sk-pill">Docker</span>
+          <span class="sk-pill">Kubernetes</span>
           <span class="sk-pill">Helm</span>
+          <span class="sk-pill">Kustomize</span>
+          <span class="sk-pill">Terraform</span>
           <span class="sk-pill">GCP</span>
           <span class="sk-pill">Azure</span>
-          <span class="sk-pill">Prometheus</span>
         </div>
       </div>
       <div class="sk-cell reveal">
@@ -56,6 +63,8 @@
           <span class="sk-pill">Airbyte</span>
           <span class="sk-pill">Trino</span>
           <span class="sk-pill">Avro</span>
+          <span class="sk-pill">AWS S3</span>
+          <span class="sk-pill">Google Cloud Storage</span>
         </div>
       </div>
       <div class="sk-cell reveal">
@@ -111,4 +120,13 @@
   transition: all 0.2s;
 }
 .sk-pill:hover { border-color: rgba(200,220,192,0.3); color: #c8dcc0; }
+
+@media (max-width: 768px) {
+  .section { padding: 60px 0; }
+  .wrap { padding: 0 20px; }
+  .s-title { margin-bottom: 32px; }
+  .sk-grid { grid-template-columns: 1fr; }
+  .sk-cell { padding: 20px; }
+  .sk-pill { font-size: 11px; padding: 4px 10px; }
+}
 </style>

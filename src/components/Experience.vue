@@ -2,7 +2,7 @@
 <section class="section" id="experience">
   <div class="wrap">
     <p class="s-label reveal">Career</p>
-    <h2 class="s-title reveal">Work <em>Experience</em></h2>
+    <h2 class="s-title reveal">Work Experience</h2>
     <div class="exp-list">
       <div class="exp-row reveal">
         <div>
@@ -10,14 +10,13 @@
             <div class="exp-title">Python Intern</div>
             <div class="exp-company">Techolution · Hyderabad</div>
           </div>
-          <p class="exp-desc">Built Deploy Genie — an AI-assisted platform for deploying agents to GKE — and Triage AI, an SRE tool for production root-cause identification. Implemented full observability stack with OpenTelemetry, Grafana, Prometheus, Jaeger, and Loki.</p>
+          <p class="exp-desc">Worked on Deploy Genie an AI-assisted GitOps platform for deploying Apps to GKE and Cloud Run.<br> Worked on Triage AI, an SRE tool for production root-cause identification. <br>Implemented full opensource observability stack with OpenTelemetry, Grafana, Prometheus, Jaeger, and Loki.</p>
           <div class="exp-chips">
             <span class="chip">FastAPI</span>
-            <span class="chip">GKE</span>
-            <span class="chip">Helm</span>
-            <span class="chip">Grafana</span>
-            <span class="chip">OpenTelemetry</span>
             <span class="chip">MongoDB</span>
+            <span class="chip">GCP</span>
+            <span class="chip">GKE</span>
+            <span class="chip">Google Cloud Run</span>
           </div>
         </div>
         <div class="exp-period">Sep 2025 → Present</div>
@@ -31,10 +30,11 @@
           <p class="exp-desc">Designed agentic AI architecture with LangGraph and MCP servers from scratch. Reduced analyst turnaround time 3× by enabling managers to independently query Azure-based data sources for actionable insights.</p>
           <div class="exp-chips">
             <span class="chip">LangGraph</span>
-            <span class="chip">MCP Servers</span>
+            <span class="chip">FastMCP</span>
             <span class="chip">RAG</span>
             <span class="chip">Azure SQL</span>
             <span class="chip">Langfuse</span>
+            <span class="chip">Google Cloud Run</span>
           </div>
         </div>
         <div class="exp-period">Jun → Aug 2025</div>
@@ -85,5 +85,16 @@
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 100px;
   color: rgba(255,255,255,0.3);
+}
+
+@media (max-width: 768px) {
+  .section { padding: 60px 0; }
+  .wrap { padding: 0 20px; }
+  .s-title { margin-bottom: 32px; }
+  .exp-row { grid-template-columns: 1fr; gap: 8px; padding: 20px 0; }
+  .exp-top { flex-direction: column; gap: 4px; }
+  .exp-title { font-size: 16px; }
+  .exp-desc { font-size: 12px; }
+  .exp-period { padding-top: 0; font-size: 10px; }
 }
 </style>

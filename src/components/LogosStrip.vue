@@ -27,4 +27,10 @@
 }
 .logo-item:hover { color: rgba(255,255,255,0.5); }
 .logo-item .logo-sym { font-size: 16px; opacity: 0.7; }
+
+@media (max-width: 768px) {
+  .logos-strip { padding: 20px 20px; gap: 20px 28px; }
+  .logo-item { font-size: 11px; }
+  .logo-item .logo-sym { font-size: 14px; }
+}
 </style>
