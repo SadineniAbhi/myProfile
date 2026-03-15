@@ -36,7 +36,7 @@ variable "cpu" {
 variable "memory" {
   description = "Memory limit for Cloud Run container"
   type        = string
-  default     = "256Mi"
+  default     = "512Mi"
 }
 
 variable "min_instances" {
