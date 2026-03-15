@@ -78,11 +78,11 @@ resource "google_cloudbuild_trigger" "deploy" {
 
 resource "google_cloud_run_v2_service" "app" {
   name     = var.app_name
-  location = "global"
+  location = var.region
 
   template {
     containers {
-      image = "${local.image_url}:latest"
+      image = "us-docker.pkg.dev/cloudrun/container/hello"
 
       ports {
         container_port = 80
