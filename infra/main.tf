@@ -3,6 +3,7 @@ terraform {
 
   backend "gcs" {
     bucket  = "terraform-profile-project-state"
+    prefix  = "cloud-run-infra"
   }
 
   required_providers {
