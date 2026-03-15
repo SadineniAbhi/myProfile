@@ -76,7 +76,7 @@ resource "google_cloudbuild_trigger" "deploy" {
 
 resource "google_cloud_run_v2_service" "app" {
   name     = var.app_name
-  location = var.region
+  location = "global"
 
   template {
     containers {
