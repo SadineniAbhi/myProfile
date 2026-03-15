@@ -50,7 +50,7 @@ locals {
 
 resource "google_cloudbuild_trigger" "deploy" {
   name     = "${var.app_name}-deploy"
-  location = "global"
+  location = var.region
 
   github {
     owner = var.github_owner
