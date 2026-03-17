@@ -147,7 +147,22 @@ resource "google_cloud_run_domain_mapping" "mapping" {
   spec {
     route_name = "myprofile"
   }
+
+  depends_on = [google_cloud_run_v2_service.app]
 }
+
+resource "google_cloud_run_domain_mapping" "www" {
+  location = var.region
+  name     = "www.sadineni.in"
+  metadata {
+    namespace = var.project_id
+  }
+  spec {
+    route_name = google_cloud_run_v2_service.app.name
+  }
+  depends_on = [google_cloud_run_v2_service.app]
+}
+
 
 # ── Outputs ───────────────────────────────────────────────────────────
 
