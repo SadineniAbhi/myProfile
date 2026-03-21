@@ -3,7 +3,7 @@
     <h1>
       <em>Abhijeeth Sadineni</em>
     </h1>
-
+    <br>
     <div class="hero-pill">
       AI &amp; Backend Engineer
     </div>
@@ -19,7 +19,10 @@
 
     <div class="hero-ctas">
       <a href="https://github.com/SadineniAbhi" target="_blank" class="btn-outline">
-        View Projects
+        GitHub ↗
+      </a>
+      <a href="https://www.linkedin.com/in/abhijeeth-sadineni/" target="_blank" class="btn-outline">
+        LinkedIn ↗
       </a>
     </div>
   </section>
@@ -118,7 +121,6 @@
 }
 
 @keyframes fadeUp { from{opacity:0;transform:translateY(20px)} to{opacity:1;transform:translateY(0)} }
-@keyframes fadeIn { from{opacity:0} to{opacity:1} }
 
 @media (max-width: 768px) {
   .hero { min-height: 600px; padding: 0 20px; }

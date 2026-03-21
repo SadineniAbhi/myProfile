@@ -3,7 +3,7 @@
   <h2>Let's Build<br>Something Together.</h2>
   <p>Open to AI engineering and backend internships, full-time roles, and collaborations.</p>
   <div class="contact-btns">
-    <a href="mailto:sadineniabhi@gmail.com" class="c-link">✉ sadineniabhi@gmail.com</a>
+    <a href="mailto:abhisadineni@gmail.com" class="c-link">✉ abhisadineni@gmail.com</a>
     <a href="tel:+918106849297" class="c-link">☎ +91 81068 49297</a>
     <a href="https://github.com/SadineniAbhi" target="_blank" class="c-link">⌥ GitHub</a>
     <a href="https://www.linkedin.com/in/abhijeeth-sadineni" target="_blank" class="c-link">↗ LinkedIn</a>

@@ -20,6 +20,8 @@ nav {
   display: flex; 
   align-items: center; 
   justify-content: center; 
+  opacity: 0;
+  animation: fadeUp 0.7s ease forwards 0.85s;
 }
 
 .nav-links {
@@ -45,6 +47,8 @@ nav {
     &:hover { color: #fff; background: rgba(255,255,255,0.07); }
   }
 }
+
+@keyframes fadeUp { from{opacity:0;transform:translateY(20px)} to{opacity:1;transform:translateY(0)} }
 
 @media (max-width: 768px) {
   nav {
