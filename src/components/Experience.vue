@@ -10,12 +10,30 @@
             <div class="exp-title">Python Intern</div>
             <div class="exp-company">Techolution · Hyderabad</div>
           </div>
-          <p class="exp-desc">Worked on Deploy Genie an AI-assisted GitOps platform for deploying Apps to GKE and Cloud Run.<br> Worked on Triage AI, an SRE tool for production root-cause identification. <br>Implemented full opensource observability stack with OpenTelemetry, Grafana, Prometheus, Jaeger, and Loki.</p>
-          <div class="exp-chips">
-            <span class="chip">FastAPI</span>
-            <span class="chip">MongoDB</span>
+          <div class="exp-project">Deploy Genie</div>
+          <p class="exp-desc"><b>> Deploy Genie AI Assisted gitops tool which helps teams deploy their workloads to GKE/ Cloud Run</b></p> 
+          <p class="exp-desc">> Designed and implemented scalable backend APIs using FastAPI.</p>
+
+          <p class="exp-desc">> Extended platform capabilities by adding support for Cloud Run deployments, improving flexibility for serverless
+          workloads like frontends.</p>
+          <p class="exp-desc">> Developed and maintained Helm charts used in backend workflows to dynamically create and manage applications in
+          ArgoCD for Kubernetes deployments.</p>
+          <p class="exp-desc">> Resolved concurrency issues in updating Helm values.yaml files in GitHub by implementing <br>Redis-based distributed
+          locking and retry mechanisms, preventing conflicts from both user actions and CI/CD triggers, ensuring reliable updates
+          to the deployment configurations.</p>
+          <br>
+          <div class="exp-project">Triage AI</div>
+          <p class="exp-desc"><b>> Helped in designing and implementing Triage AI Web App — a tool that assists SRE teams in
+          identifying the root cause of issues of applications running in production.</b></p> 
+          <p class="exp-desc">> Developed scalable, production-ready APIs and webhooks for seamless integrations of application with Slack and Jira.</p>
+          <p class="exp-desc">> Built and deployed AI Agents from scratch using internal frameworks</p>
+          <br>
+          <div class="exp-cips">
             <span class="chip">GCP</span>
             <span class="chip">GKE</span>
+            <span class="chip">GenAI</span>
+            <span class="chip">FastAPI</span>
+            <span class="chip">MongoDB</span>
             <span class="chip">Google Cloud Run</span>
           </div>
         </div>
@@ -27,13 +45,23 @@
             <div class="exp-title">AI Intern</div>
             <div class="exp-company">Megha Engineering &amp; Infrastructure Ltd. · Hyderabad</div>
           </div>
-          <p class="exp-desc">Designed agentic AI architecture with LangGraph and MCP servers from scratch. Reduced analyst turnaround time 3× by enabling managers to independently query Azure-based data sources for actionable insights.</p>
+          <p class="exp-desc"><b>> Contributing to the development of an AI Platform that intelligently queries Azure-based data sources to
+          deliver context-aware, actionable insights. The solution blends MEIL’s internal knowledge base with
+          cutting-edge agentic AI to streamline analytics and decision-making processes.</b></p>
+          <p class="exp-desc">> Collaborated with engineering teams to assess MEIL’s internal data architecture and validate the feasibility of AI
+          integration.</p>
+          <p class="exp-desc">> Designed and implemented a scalable, agentic AI chatbot leveraging LangGraph, LangChain, and FastAPI.</p>
+          <p class="exp-desc">> Integrated Arize Phoenix for telemetry, enabling observability, tracing, and system performance monitoring.</p>
+          <p class="exp-desc">> Developed modular MCP (Model Context Protocol) servers for interaction with internal SQL and vector stores.</p>
+          <p class="exp-desc">> Supported the infrastructure team in architectural discussions and deployment planning for Azure-based systems.</p>
+          <p class="exp-desc">> Contributed to building a reusable AI platform to power internal automation and analytics workflows.</p>
           <div class="exp-chips">
-            <span class="chip">LangGraph</span>
-            <span class="chip">FastMCP</span>
             <span class="chip">RAG</span>
-            <span class="chip">Azure SQL</span>
+            <span class="chip">FastAPI</span>
+            <span class="chip">FastMCP</span>
+            <span class="chip">LangGraph</span>
             <span class="chip">Langfuse</span>
+            <span class="chip">Azure SQL</span>
             <span class="chip">Google Cloud Run</span>
           </div>
         </div>
@@ -73,7 +101,7 @@
 .exp-top { display: flex; align-items: baseline; gap: 14px; margin-bottom: 6px; }
 .exp-title { font-size: 18px; font-weight: 500; transition: color 0.25s; }
 .exp-company { font-size: 12px; color: rgba(255,255,255,0.3); }
-.exp-desc { font-size: 13px; color: rgba(255,255,255,0.35); line-height: 1.65; max-width: 580px; }
+.exp-desc { font-size: 13px; color: rgba(255,255,255,0.35); line-height: 1.65; max-width: 550px; }
 .exp-period {
   font-size: 11px; color: rgba(255,255,255,0.25);
   white-space: nowrap; padding-top: 4px;
