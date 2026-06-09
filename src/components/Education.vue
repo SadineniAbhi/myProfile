@@ -5,16 +5,48 @@
     <h2 class="s-title reveal">Education &amp; Certifications</h2>
     <div class="edu-row reveal">
       <div>
-        <div class="edu-degree-title">B.Tech in Computer Science</div>
-        <div class="edu-spec-sub">Artificial Intelligence &amp; Machine Learning</div>
-        <div class="edu-inst-sub">Gokaraju Rangaraju Institute of Engineering and Technology</div>
-        <div class="edu-certs">
-          <span class="chip">Docker Essentials · IBM</span>
-          <span class="chip">Kubernetes Essentials · IBM</span>
-        </div>
+        <div class="edu-degree-title">B.Tech in Computer Science &amp; Engineering</div>
+        <div class="edu-spec-sub">CGPA: 9.27</div>
+        <div class="edu-inst-sub">CMRCET, Hyderabad</div>
       </div>
       <div class="edu-certs">
-        <span class="chip">2022 - Present</span>
+        <span class="chip">2019 – 2023</span>
+      </div>
+    </div>
+
+    <div class="edu-row reveal" style="margin-top: 1px;">
+      <div>
+        <div class="edu-degree-title">10+2 · Mathematics, Physics &amp; Chemistry</div>
+        <div class="edu-spec-sub">96.9%</div>
+        <div class="edu-inst-sub">BIE, Hyderabad</div>
+      </div>
+      <div class="edu-certs">
+        <span class="chip">2017 – 2019</span>
+      </div>
+    </div>
+
+    <div class="edu-row reveal" style="margin-top: 1px;">
+      <div>
+        <div class="edu-degree-title">SSC</div>
+        <div class="edu-spec-sub">GPA: 9.5</div>
+        <div class="edu-inst-sub">BSE, Hyderabad</div>
+      </div>
+      <div class="edu-certs">
+        <span class="chip">2017</span>
+      </div>
+    </div>
+
+    <div style="margin-top: 48px;">
+      <p class="s-label">Certifications</p>
+      <div class="cert-grid">
+        <span class="chip">Microsoft Azure AI Engineer Associate (AI-102)</span>
+        <span class="chip">Microsoft Azure Fundamentals (AZ-900)</span>
+        <span class="chip">Microsoft Azure Data Fundamentals (DP-900)</span>
+        <span class="chip">Microsoft Azure Security, Compliance &amp; Identity (SC-900)</span>
+        <span class="chip">Microsoft Azure AI Fundamentals (AI-900)</span>
+        <span class="chip">Oracle Cloud Infrastructure AI Foundations Associate</span>
+        <span class="chip">Oracle Cloud Infrastructure Generative AI Professional</span>
+        <span class="chip">Google Data Analytics</span>
       </div>
     </div>
 
@@ -49,6 +81,7 @@
 .edu-spec-sub { font-size: 13px; color: rgba(200,220,192,0.5); margin-bottom: 6px; }
 .edu-inst-sub { font-size: 12px; color: rgba(255,255,255,0.25); }
 .edu-certs { margin-top: 18px; display: flex; gap: 8px; flex-wrap: wrap; }
+.cert-grid { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
 .chip {
   font-size: 10px; padding: 3px 10px;
   border: 1px solid rgba(255,255,255,0.08);

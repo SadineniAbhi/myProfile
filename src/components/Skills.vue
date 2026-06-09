@@ -7,74 +7,53 @@
       <div class="sk-cell reveal">
         <div class="sk-cell-label">Languages</div>
         <div class="sk-pills">
+          <span class="sk-pill">C#</span>
           <span class="sk-pill">Python</span>
+          <span class="sk-pill">Java</span>
           <span class="sk-pill">JavaScript</span>
           <span class="sk-pill">TypeScript</span>
-          <span class="sk-pill">SQL</span>
-          <span class="sk-pill">Java</span>
-          <span class="sk-pill">Go</span>
+          <span class="sk-pill">C++</span>
+          <span class="sk-pill">C</span>
         </div>
       </div>
       <div class="sk-cell reveal">
-        <div class="sk-cell-label">Generative AI</div>
+        <div class="sk-cell-label">Frameworks &amp; Libraries</div>
         <div class="sk-pills">
-          <span class="sk-pill">LangGraph</span>
-          <span class="sk-pill">LangChain</span>
-          <span class="sk-pill">RAG</span>
-          <span class="sk-pill">Qdrant</span>
-          <span class="sk-pill">Langfuse</span>
-          <span class="sk-pill">Pinecone</span>
-          <span class="sk-pill">Arize AI</span>
-          <span class="sk-pill">Azure AI Search</span>
-        </div>
-      </div>
-      <div class="sk-cell reveal">
-        <div class="sk-cell-label">Web &amp; APIs</div>
-        <div class="sk-pills">
+          <span class="sk-pill">.NET</span>
           <span class="sk-pill">FastAPI</span>
-          <span class="sk-pill">Flask</span>
-          <span class="sk-pill">WebSockets</span>
-          <span class="sk-pill">REST</span>
-          <span class="sk-pill">JWT</span>
-          <span class="sk-pill">Postman</span>
-          <span class="sk-pill">Gin Web Framework</span>
-          <span class="sk-pill">Vue.js</span>
+          <span class="sk-pill">Django</span>
+          <span class="sk-pill">NumPy</span>
+          <span class="sk-pill">Pandas</span>
+          <span class="sk-pill">OpenCV</span>
+          <span class="sk-pill">Scikit-Learn</span>
         </div>
       </div>
       <div class="sk-cell reveal">
-        <div class="sk-cell-label">DevOps &amp; Cloud</div>
+        <div class="sk-cell-label">AI Systems &amp; Machine Learning</div>
         <div class="sk-pills">
-          <span class="sk-pill">GKE</span>
-          <span class="sk-pill">Cloud Run</span>
-          <span class="sk-pill">Docker</span>
-          <span class="sk-pill">Kubernetes</span>
-          <span class="sk-pill">Helm</span>
-          <span class="sk-pill">Kustomize</span>
-          <span class="sk-pill">Terraform</span>
-          <span class="sk-pill">GCP</span>
-          <span class="sk-pill">Azure</span>
+          <span class="sk-pill">Semantic Kernel</span>
+          <span class="sk-pill">Multi-Agent Systems</span>
+          <span class="sk-pill">Prompt Engineering</span>
+          <span class="sk-pill">RAG</span>
+          <span class="sk-pill">ML Fundamentals</span>
         </div>
       </div>
       <div class="sk-cell reveal">
-        <div class="sk-cell-label">Data Engineering</div>
+        <div class="sk-cell-label">Databases</div>
         <div class="sk-pills">
-          <span class="sk-pill">Apache Kafka</span>
-          <span class="sk-pill">Apache Iceberg</span>
-          <span class="sk-pill">Airbyte</span>
-          <span class="sk-pill">Trino</span>
-          <span class="sk-pill">Avro</span>
-          <span class="sk-pill">AWS S3</span>
-          <span class="sk-pill">Google Cloud Storage</span>
+          <span class="sk-pill">SQL</span>
+          <span class="sk-pill">SQLite</span>
+          <span class="sk-pill">MongoDB</span>
         </div>
       </div>
       <div class="sk-cell reveal">
-        <div class="sk-cell-label">Observability</div>
+        <div class="sk-cell-label">DevOps &amp; Tooling</div>
         <div class="sk-pills">
-          <span class="sk-pill">OpenTelemetry</span>
-          <span class="sk-pill">Grafana</span>
-          <span class="sk-pill">Prometheus</span>
-          <span class="sk-pill">Jaeger</span>
-          <span class="sk-pill">Loki</span>
+          <span class="sk-pill">Azure DevOps</span>
+          <span class="sk-pill">Jenkins</span>
+          <span class="sk-pill">Git</span>
+          <span class="sk-pill">CI/CD Pipelines</span>
+          <span class="sk-pill">NuGet</span>
         </div>
       </div>
     </div>

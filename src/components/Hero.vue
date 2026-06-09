@@ -1,11 +1,11 @@
 <template>
   <section class="hero">
     <h1>
-      <em>Abhijeeth Sadineni</em>
+      <em>Sree Sadineni</em>
     </h1>
     <br>
     <div class="hero-pill">
-      AI &amp; Backend Engineer
+      Software Engineer
     </div>
 
     <h1 class="hero-headline">
@@ -13,15 +13,12 @@
     </h1>
 
     <p class="hero-sub">
-      I'm Abhijeeth Sadineni — crafting production-grade AI agents, real-time infrastructure,
-      and data pipelines. Currently at Techolution, Hyderabad.
+      I'm Sree Sadineni — passionate about AI workflows, machine learning, and .NET systems.
+      Currently a Software Developer at Hexagon AB, Hyderabad.
     </p>
 
     <div class="hero-ctas">
-      <a href="https://github.com/SadineniAbhi" target="_blank" class="btn-outline">
-        GitHub ↗
-      </a>
-      <a href="https://www.linkedin.com/in/abhijeeth-sadineni/" target="_blank" class="btn-outline">
+      <a href="https://www.linkedin.com/in/sree-sadineni-3215291aa/" target="_blank" class="btn-outline">
         LinkedIn ↗
       </a>
     </div>

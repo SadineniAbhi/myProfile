@@ -1,12 +1,11 @@
 <template>
 <div class="contact-block reveal">
   <h2>Let's Build<br>Something Together.</h2>
-  <p>Open to AI engineering and backend internships, full-time roles, and collaborations.</p>
+  <p>Open to software engineering roles, AI/ML opportunities, and collaborations.</p>
   <div class="contact-btns">
-    <a href="mailto:abhisadineni@gmail.com" class="c-link">✉ abhisadineni@gmail.com</a>
-    <a href="tel:+918106849297" class="c-link">☎ +91 81068 49297</a>
-    <a href="https://github.com/SadineniAbhi" target="_blank" class="c-link">⌥ GitHub</a>
-    <a href="https://www.linkedin.com/in/abhijeeth-sadineni" target="_blank" class="c-link">↗ LinkedIn</a>
+    <a href="mailto:sreesadineni@gmail.com" class="c-link">✉ sreesadineni@gmail.com</a>
+    <a href="tel:+916302623437" class="c-link">☎ +91 63026 23437</a>
+    <a href="https://www.linkedin.com/in/sree-sadineni-3215291aa/" target="_blank" class="c-link">↗ LinkedIn</a>
   </div>
 </div>
 </template>

@@ -7,65 +7,45 @@
       <div class="exp-row reveal">
         <div>
           <div class="exp-top">
-            <div class="exp-title">Python Intern</div>
-            <div class="exp-company">Techolution · Hyderabad</div>
+            <div class="exp-title">Software Developer</div>
+            <div class="exp-company">Hexagon AB · Hyderabad</div>
           </div>
-          <div class="exp-project">Deploy Genie</div>
-          <p class="exp-desc"><b>> Deploy Genie AI Assisted gitops tool which helps teams deploy their workloads to GKE/ Cloud Run</b></p> 
-          <p class="exp-desc">> Designed and implemented scalable backend APIs using FastAPI.</p>
-
-          <p class="exp-desc">> Extended platform capabilities by adding support for Cloud Run deployments, improving flexibility for serverless
-          workloads like frontends.</p>
-          <p class="exp-desc">> Developed and maintained Helm charts used in backend workflows to dynamically create and manage applications in
-          ArgoCD for Kubernetes deployments.</p>
-          <p class="exp-desc">> Resolved concurrency issues in updating Helm values.yaml files in GitHub by implementing <br>Redis-based distributed
-          locking and retry mechanisms, preventing conflicts from both user actions and CI/CD triggers, ensuring reliable updates
-          to the deployment configurations.</p>
+          <div class="exp-project">Hexagon ALI Smart 3D</div>
+          <p class="exp-desc">> Worked on a production-ready .NET 8.0 library for orchestrating multi-agent AI workflows. It is an extensible framework for building complex AI applications with structured execution planning and comprehensive conversation management.</p>
+          <p class="exp-desc">> Developed and optimized chat history and context management to reduce LLM token consumption while maintaining response quality.</p>
+          <p class="exp-desc">> Contributed to system design, CI/CD pipelines, debugging, and testing in collaboration with cross-functional teams.</p>
           <br>
-          <div class="exp-project">Triage AI</div>
-          <p class="exp-desc"><b>> Helped in designing and implementing Triage AI Web App — a tool that assists SRE teams in
-          identifying the root cause of issues of applications running in production.</b></p> 
-          <p class="exp-desc">> Developed scalable, production-ready APIs and webhooks for seamless integrations of application with Slack and Jira.</p>
-          <p class="exp-desc">> Built and deployed AI Agents from scratch using internal frameworks</p>
-          <br>
-          <div class="exp-cips">
-            <span class="chip">GCP</span>
-            <span class="chip">GKE</span>
-            <span class="chip">GenAI</span>
-            <span class="chip">FastAPI</span>
-            <span class="chip">MongoDB</span>
-            <span class="chip">Google Cloud Run</span>
+          <div class="exp-chips">
+            <span class="chip">.NET 8.0</span>
+            <span class="chip">C#</span>
+            <span class="chip">Multi-Agent AI</span>
+            <span class="chip">CI/CD</span>
           </div>
         </div>
-        <div class="exp-period">Sep 2025 → Present</div>
+        <div class="exp-period">Jul 2024 → Present</div>
       </div>
       <div class="exp-row reveal">
         <div>
           <div class="exp-top">
-            <div class="exp-title">AI Intern</div>
-            <div class="exp-company">Megha Engineering &amp; Infrastructure Ltd. · Hyderabad</div>
+            <div class="exp-title">R&amp;D Intern</div>
+            <div class="exp-company">Hexagon AB · Hyderabad</div>
           </div>
-          <p class="exp-desc"><b>> Contributing to the development of an AI Platform that intelligently queries Azure-based data sources to
-          deliver context-aware, actionable insights. The solution blends MEIL’s internal knowledge base with
-          cutting-edge agentic AI to streamline analytics and decision-making processes.</b></p>
-          <p class="exp-desc">> Collaborated with engineering teams to assess MEIL’s internal data architecture and validate the feasibility of AI
-          integration.</p>
-          <p class="exp-desc">> Designed and implemented a scalable, agentic AI chatbot leveraging LangGraph, LangChain, and FastAPI.</p>
-          <p class="exp-desc">> Integrated Arize Phoenix for telemetry, enabling observability, tracing, and system performance monitoring.</p>
-          <p class="exp-desc">> Developed modular MCP (Model Context Protocol) servers for interaction with internal SQL and vector stores.</p>
-          <p class="exp-desc">> Supported the infrastructure team in architectural discussions and deployment planning for Azure-based systems.</p>
-          <p class="exp-desc">> Contributed to building a reusable AI platform to power internal automation and analytics workflows.</p>
+          <div class="exp-project">3D Design Generation of Equipments from 2D P&amp;ID Drawing</div>
+          <p class="exp-desc">> Worked on an innovative idea to convert 2D P&amp;ID drawings into 3D models.</p>
+          <p class="exp-desc">> Developed custom command in the application for generating 3D designs of equipment and piping from P&amp;ID drawing using the regression model.</p>
+          <p class="exp-desc">> Developed random forest regression model and integrated it with prototype custom command in the Smart3D application using Python for ML and C# for integrating ML script.</p>
           <div class="exp-chips">
-            <span class="chip">RAG</span>
-            <span class="chip">FastAPI</span>
-            <span class="chip">FastMCP</span>
-            <span class="chip">LangGraph</span>
-            <span class="chip">Langfuse</span>
-            <span class="chip">Azure SQL</span>
-            <span class="chip">Google Cloud Run</span>
+            <span class="chip">Machine Learning</span>
+            <span class="chip">Python</span>
+            <span class="chip">C#</span>
+            <span class="chip">.NET</span>
+            <span class="chip">NumPy</span>
+            <span class="chip">Pandas</span>
+            <span class="chip">SQL</span>
+            <span class="chip">C++ (COM)</span>
           </div>
         </div>
-        <div class="exp-period">Jun → Aug 2025</div>
+        <div class="exp-period">Nov 2023 → Apr 2024</div>
       </div>
     </div>
   </div>
@@ -102,6 +82,7 @@
 .exp-title { font-size: 18px; font-weight: 500; transition: color 0.25s; }
 .exp-company { font-size: 12px; color: rgba(255,255,255,0.3); }
 .exp-desc { font-size: 13px; color: rgba(255,255,255,0.35); line-height: 1.65; max-width: 550px; }
+.exp-project { font-size: 13px; font-weight: 600; color: rgba(200,220,192,0.6); margin-bottom: 8px; margin-top: 4px; }
 .exp-period {
   font-size: 11px; color: rgba(255,255,255,0.25);
   white-space: nowrap; padding-top: 4px;
