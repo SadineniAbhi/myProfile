@@ -39,6 +39,20 @@ onMounted(() => {
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html, body { width: 100%; height: 100%; overflow-x: hidden; }
 
+html {
+  color-scheme: dark;
+  scrollbar-color: rgba(255,255,255,0.18) #080a08;
+  scrollbar-width: thin;
+}
+html::-webkit-scrollbar { width: 10px; }
+html::-webkit-scrollbar-track { background: #080a08; }
+html::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.18);
+  border-radius: 100px;
+  border: 2px solid #080a08;
+}
+html::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.3); }
+
 body {
   background: #080a08;
   color: #e8ede8;
