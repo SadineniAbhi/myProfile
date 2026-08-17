@@ -15,7 +15,6 @@
       </div>
       <div class="edu-certs">
         <span class="chip">2022 - 2026</span>
-        <span class="chip">CGPA: 8.28 / 10</span>
       </div>
     </div>
 
