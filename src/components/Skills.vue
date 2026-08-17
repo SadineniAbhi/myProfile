@@ -18,13 +18,14 @@
       <div class="sk-cell reveal">
         <div class="sk-cell-label">Generative AI</div>
         <div class="sk-pills">
+          <span class="sk-pill">Agentic AI</span>
           <span class="sk-pill">LangGraph</span>
           <span class="sk-pill">LangChain</span>
           <span class="sk-pill">RAG</span>
           <span class="sk-pill">Qdrant</span>
           <span class="sk-pill">Langfuse</span>
           <span class="sk-pill">Pinecone</span>
-          <span class="sk-pill">Arize AI</span>
+          <span class="sk-pill">Arize Phoenix</span>
           <span class="sk-pill">Azure AI Search</span>
         </div>
       </div>
@@ -33,9 +34,11 @@
         <div class="sk-pills">
           <span class="sk-pill">FastAPI</span>
           <span class="sk-pill">Flask</span>
+          <span class="sk-pill">Microservices</span>
           <span class="sk-pill">WebSockets</span>
           <span class="sk-pill">REST</span>
           <span class="sk-pill">JWT</span>
+          <span class="sk-pill">WebHooks</span>
           <span class="sk-pill">Postman</span>
           <span class="sk-pill">Gin Web Framework</span>
           <span class="sk-pill">Vue.js</span>
@@ -47,8 +50,12 @@
           <span class="sk-pill">GKE</span>
           <span class="sk-pill">Cloud Run</span>
           <span class="sk-pill">Docker</span>
+          <span class="sk-pill">Docker-Compose</span>
           <span class="sk-pill">Kubernetes</span>
+          <span class="sk-pill">KEDA</span>
+          <span class="sk-pill">cert-manager</span>
           <span class="sk-pill">Helm</span>
+          <span class="sk-pill">ArgoCD</span>
           <span class="sk-pill">Kustomize</span>
           <span class="sk-pill">Terraform</span>
           <span class="sk-pill">GCP</span>
@@ -64,6 +71,7 @@
           <span class="sk-pill">Trino</span>
           <span class="sk-pill">Avro</span>
           <span class="sk-pill">AWS S3</span>
+          <span class="sk-pill">MinIO</span>
           <span class="sk-pill">Google Cloud Storage</span>
         </div>
       </div>

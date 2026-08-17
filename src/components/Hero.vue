@@ -21,6 +21,9 @@
       <a href="https://github.com/SadineniAbhi" target="_blank" class="btn-outline">
         GitHub ↗
       </a>
+      <a href="https://gitlab.com/abhisadineni" target="_blank" class="btn-outline">
+        GitLab ↗
+      </a>
       <a href="https://www.linkedin.com/in/abhijeeth-sadineni/" target="_blank" class="btn-outline">
         LinkedIn ↗
       </a>
