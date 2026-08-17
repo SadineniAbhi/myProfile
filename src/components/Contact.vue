@@ -6,6 +6,7 @@
     <a href="mailto:abhisadineni@gmail.com" class="c-link">✉ abhisadineni@gmail.com</a>
     <a href="tel:+918106849297" class="c-link">☎ +91 81068 49297</a>
     <a href="https://github.com/SadineniAbhi" target="_blank" class="c-link">⌥ GitHub</a>
+    <a href="https://gitlab.com/abhisadineni" target="_blank" class="c-link">◆ GitLab</a>
     <a href="https://www.linkedin.com/in/abhijeeth-sadineni" target="_blank" class="c-link">↗ LinkedIn</a>
   </div>
 </div>

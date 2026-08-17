@@ -3,8 +3,29 @@
   <div class="wrap">
     <p class="s-label reveal">Work</p>
     <h2 class="s-title reveal">Projects</h2>
+    <div class="proj-list">
     <div class="proj-card reveal">
       <div class="proj-num">01</div>
+      <div class="proj-title">Coding Agent <a href="https://gitlab.com/abhisadineni/codingagent" target="_blank" class="proj-link">GitLab ↗</a></div>
+      <p class="proj-desc">AI coding agent platform that autonomously executes multi-turn coding tasks against a user's GitHub repository inside isolated, on-demand Kubernetes sandboxes. A FastAPI backend orchestrates an agent (OpenAI Agents SDK) with tool-calling to run shell commands in a Go-based sandbox microservice, streaming responses in real time.</p>
+      <div class="proj-stat">Project &amp; session state in MongoDB · Langfuse tracing across agent runs</div>
+      <div class="proj-chips">
+        <span class="chip">Python</span>
+        <span class="chip">TypeScript</span>
+        <span class="chip">FastAPI</span>
+        <span class="chip">Kubernetes</span>
+        <span class="chip">Go</span>
+        <span class="chip">OpenAI Agents SDK</span>
+        <span class="chip">MongoDB</span>
+        <span class="chip">Redis</span>
+        <span class="chip">React</span>
+        <span class="chip">Auth0</span>
+        <span class="chip">Langfuse</span>
+        <span class="chip">Docker</span>
+      </div>
+    </div>
+    <div class="proj-card reveal">
+      <div class="proj-num">02</div>
       <div class="proj-title">Smart Board</div>
       <p class="proj-desc">Real-time collaborative canvas enabling multiple users to draw and brainstorm simultaneously. WebSocket-based sync for zero-latency updates. Deployed live on Google Cloud Run.</p>
       <div class="proj-stat">Meeting duration halved · Team productivity doubled</div>
@@ -16,6 +37,7 @@
         <span class="chip">Docker</span>
         <span class="chip">Cloud Run</span>
       </div>
+    </div>
     </div>
   </div>
 </section>
@@ -38,6 +60,7 @@
 }
 .s-title em { font-style: italic; color: rgba(200,220,192,0.65); }
 
+.proj-list { display: flex; flex-direction: column; gap: 20px; }
 .proj-card {
   padding: 40px;
   border: 1px solid rgba(255,255,255,0.07);
@@ -52,6 +75,15 @@
   font-size: 64px; color: rgba(255,255,255,0.03); line-height: 1;
 }
 .proj-title { font-size: 22px; font-weight: 500; margin-bottom: 10px; }
+.proj-link {
+  font-size: 12px; font-weight: 400;
+  color: rgba(200,220,192,0.65);
+  text-decoration: none;
+  margin-left: 10px;
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+.proj-link:hover { color: #c8dcc0; }
 .proj-desc { font-size: 13px; color: rgba(255,255,255,0.35); line-height: 1.65; max-width: 560px; margin-bottom: 16px; }
 .proj-stat {
   display: inline-flex; align-items: center; gap: 6px;

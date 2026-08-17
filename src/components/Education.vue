@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="edu-certs">
-        <span class="chip">2022 - Present</span>
+        <span class="chip">2022 - 2026</span>
       </div>
     </div>
 
