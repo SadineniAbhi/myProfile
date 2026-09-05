@@ -1,0 +1,15 @@
+services:
+  myprofile:
+    build: .
+    container_name: myprofile
+    restart: unless-stopped
+    networks:
+      - proxy
+    # no "ports:" — nothing outside the "proxy" network can reach this
+    # container directly, only forwardproxy's nginx can, over port 80
+    # (the port the image's own nginx listens on internally, per its
+    # Dockerfile/nginx.conf).
+
+networks:
+  # actually owned/named by the root docker-compose.yml — see that file.
+  proxy: {}
