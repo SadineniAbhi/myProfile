@@ -4,12 +4,33 @@ services:
     container_name: myprofile
     restart: unless-stopped
     networks:
-      - proxy
-    # no "ports:" — nothing outside the "proxy" network can reach this
-    # container directly, only forwardproxy's nginx can, over port 80
-    # (the port the image's own nginx listens on internally, per its
-    # Dockerfile/nginx.conf).
+      - web
+    # no "ports:" — nothing outside the "web" network can reach this
+    # container directly, only nginx below can, over port 80 (the port
+    # the image's own nginx listens on internally, per its Dockerfile).
+
+  nginx:
+    image: nginx:1.27-alpine
+    container_name: myprofile-proxy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./proxy/conf.d:/etc/nginx/conf.d:ro
+      - ./proxy/certs:/etc/letsencrypt:ro
+      - ./proxy/www:/var/www/certbot:ro
+    networks:
+      - web
+
+  certbot:
+    image: certbot/certbot:latest
+    volumes:
+      - ./proxy/certs:/etc/letsencrypt
+      - ./proxy/www:/var/www/certbot
+    # no "command:" — not meant to run via `docker compose up`, just
+    # provides the image + volumes for `docker compose run --rm certbot ...`
+    # (initial cert request + renewal cron — see TLS.md).
 
 networks:
-  # actually owned/named by the root docker-compose.yml — see that file.
-  proxy: {}
+  web:
