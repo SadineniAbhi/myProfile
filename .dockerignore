@@ -1,0 +1,9 @@
+# proxy/certs holds root-owned Let's Encrypt files (unreadable by the
+# deploying user) and proxy/www is just ACME challenge scratch space —
+# neither belongs in the app's build context anyway.
+proxy
+
+.git
+node_modules
+dist
+*.log
