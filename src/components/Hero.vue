@@ -1,7 +1,7 @@
 <template>
   <section class="hero">
     <h1>
-      <em>Abhijeeth Sadineni</em>
+      <em>Sree Sadineni</em>
     </h1>
     <br>
     <div class="hero-pill">
@@ -13,7 +13,7 @@
     </h1>
 
     <p class="hero-sub">
-      I'm Abhijeeth Sadineni — crafting production-grade AI agents, real-time infrastructure,
+      I'm Sree Sadineni — crafting production-grade AI agents, real-time infrastructure,
       and data pipelines. Currently at Techolution, Hyderabad.
     </p>
 

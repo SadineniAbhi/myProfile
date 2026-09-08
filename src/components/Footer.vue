@@ -1,6 +1,6 @@
 <template>
 <footer>
-  <span>©Abhijeeth Sadineni</span>
+  <span>©Sree Sadineni</span>
   <span>AI &amp; Backend Engineer · Hyderabad</span>
 </footer>
 </template>
